@@ -10,6 +10,7 @@ import {
   Box,
 } from "@material-ui/core";
 import colors from "../constants/colors";
+import Blocks from "./Blocks";
 import Status from "./Status";
 
 const Node = ({ node, expanded, toggleNodeExpanded }) => {
@@ -46,7 +47,8 @@ const Node = ({ node, expanded, toggleNodeExpanded }) => {
         </Box>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
-        <Typography>Blocks go here</Typography>
+        {/**TODO: render Blocks for each node */}
+        <Blocks node={node} />
       </ExpansionPanelDetails>
     </ExpansionPanel>
   );

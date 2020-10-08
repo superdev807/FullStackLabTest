@@ -8,4 +8,7 @@ export default {
   contentBackground: "#f8f8f8",
   border: "#aaaaaa",
   white: "#ffffff",
+  blockBackground: "rgba(0, 0, 0, 0.12)",
+  blockText: "#263238",
+  blockTitle: "#304FFE",
 };
